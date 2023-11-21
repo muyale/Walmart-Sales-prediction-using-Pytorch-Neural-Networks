@@ -47,7 +47,8 @@ As a rule of thumb we are required to split the data into training and testing d
 
 ![Train test split](https://github.com/muyale/Walmart-Sales-prediction-using-Pytorch-Neural-Networks/assets/111242297/3bcbaa56-115d-453b-a764-e8f5b9ea8391)
 
-My first machine learning was Linear Regression ,this type of machine learning algorithm tries to find linear relationship bewteen variables.For validation I used Mean Squared Error 
+My first machine learning was Linear Regression ,this type of machine learning algorithm tries to find linear relationship bewteen variables.For validation I used Mean Squared Error
+
 ![Linear Regression](https://github.com/muyale/Walmart-Sales-prediction-using-Pytorch-Neural-Networks/assets/111242297/1f4cdaa8-13af-4e63-b788-a4384b0a0ccd)
 
 Decision Tree is a decision-making tool that uses a flowchart-like tree structure or is a model of decisions and all of their possible results, including outcomes, input costs, and utility.Decision-tree algorithm falls under the category of supervised learning algorithms. It works for both continuous as well as categorical output variables.
@@ -59,14 +60,17 @@ Decision Tree is a decision-making tool that uses a flowchart-like tree structur
 For Pytorch deep learning framework we are required to convert our data into tensors.The deep learning is done on these tensors
 
 ![Tensors_convert](https://github.com/muyale/Walmart-Sales-prediction-using-Pytorch-Neural-Networks/assets/111242297/b82a1039-08d1-431c-a135-44d4c42b14f7)
+
 My first deep model was a linear model with 4 inputs and 1 output
 
 ![Linear Model](https://github.com/muyale/Walmart-Sales-prediction-using-Pytorch-Neural-Networks/assets/111242297/d4ffbf08-b63f-4493-8f4e-b4e5f87d631c)
 
 Before we use a model we have to train it and see if it minimizes loss . First I had to do a random prediction before training and then selected my optimizer and loss function
+
 ![Selecting optimizer and pretraining](https://github.com/muyale/Walmart-Sales-prediction-using-Pytorch-Neural-Networks/assets/111242297/b31fbe2f-7e28-4477-884a-8fc4b9ee55ee)
 
 Training the model
+
 ![Linear Model training](https://github.com/muyale/Walmart-Sales-prediction-using-Pytorch-Neural-Networks/assets/111242297/398b875a-1882-48af-a901-56fe3032c5cb)
 
 
@@ -115,6 +119,7 @@ In an LSTM model, the recurrent weight matrix is replaced by an identify functio
 # REFERENCES 
 
 https://www.ibm.com/topics/recurrent-neural-networks
+
 https://blog.marketmuse.com/glossary/gated-recurrent-unit-gru-definition/#:~:text=The%20Gated%20Recurrent%20Unit%20(GRU,using%20datasets%20with%20longer%20sequences.
 
 
